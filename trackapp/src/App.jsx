@@ -1,10 +1,12 @@
 import React from "react";
 import AttendanceTracker from "./AttendanceTracker";
 
-export default function App() {
+function App() {
   return (
     <div>
       <AttendanceTracker />
     </div>
   );
 }
+
+export default App;
